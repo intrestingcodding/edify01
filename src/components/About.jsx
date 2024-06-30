@@ -49,21 +49,21 @@ const About = () => {
                     <div className="sm:h-32 sm:w-32 h-24 w-24 bg-orange-400 rounded-full absolute right-[-9%] top-[-10%] "></div>
 
                     <div className="sm:h-32 sm:w-32 h-24 w-24 bg-orange-400 rounded-full absolute left-[-10%] bottom-[-9%] "></div>
-                    <div className="sm:px-5 py-5 min-h-[400px] md:h-auto max-w-[350px] ">
+                    <div className="sm:px-5 py-5 min-h-[400px] md:h-auto max-w-[350px] md:mt-5 ">
                         <span className='text-[#ffa500] sm:text-xl text-lg mb-5'>Unmatched</span>
-                        <h3 className='text-white sm:text-2xl text-xl font-semibold  md:mb-5 mb-2 '>Quality of Services</h3>
-                        <p className='text-[#ffffffe8] sm:text-base text-sm mb-3 sm:mb-5'>Actively designing solutions for the worlds most ambitious change-makers who will define the future.</p>
+                        <h3 className='text-white sm:text-2xl md:text-3xl text-xl font-semibold  md:mb-3 mb-2 '>Quality of Services</h3>
+                        <p className='text-[#ffffffe8] sm:text-base text-sm mb-2 sm:mb-3'>Actively designing solutions for the worlds most ambitious change-makers who will define the future.</p>
                         <button className='border bg-white mb-3 sm:mb-5 py-1 px-5 rounded-[6px] hover:bg-primary hover:text-white sm:text-base text-sm transition-all duration-500'>Select Destination</button>
                     </div>
                     <div className="absolute right-[5%] bottom-0">
-                        <img className='sm:w-48 w-40' src="https://edify.pk/images/price-thumb.png" alt="" />
+                        <img className='sm:w-48 md:w-56 w-40' src="https://edify.pk/images/price-thumb.png" alt="" />
                     </div>
 
 
                 </div>
                 <div className="grid sm:grid-rows-3 gap-2 ">
                     <div className="">
-                        <h3 className='text-lg font-semibold mb-3 sm:mb-5 sm:text-2xl'>Why Choose Edify Group of Companies as study abroad Pakistan consultants?</h3>
+                        <h3 className='text-lg font-semibold mb-3 sm:mb-5 md:text-3xl sm:text-2xl'>Why Choose Edify Group of Companies as study abroad Pakistan consultants?</h3>
                         <p className='text-gray-500 sm:text-base text-sm'>We are unique in the quality of our services and stand out from our competitors. Unlike other consultancy firms in Pakistan, we truly care  our students.</p>
                     </div>
 
@@ -246,7 +246,7 @@ const About = () => {
             <div className="max-w-6xl mx-auto px-4 my-12">
                 <div className="flex flex-col items-center justify-center mb-10 ">
                     <div className="text-primary ms:text-base text-sm mb-2 font-semibold">Top Blogs</div>
-                    <h2 className='sm:text-2xl text-xl  font-semibold'>Our Recent Blogs</h2>
+                    <h3 className='sm:text-2xl md:text-3xl text-xl  font-semibold'>Our Recent Blogs</h3>
                 </div>
                 <Slider />
             </div>
@@ -255,11 +255,11 @@ const About = () => {
             <div className=" max-w-6xl mx-auto px-4 py-12">
                 <div className="flex flex-col items-center justify-center mb-10 ">
                     <div className="text-primary ms:text-base text-sm mb-2 font-semibold">NEWS & EVENTS</div>
-                    <h2 className='sm:text-2xl text-xl font-semibold'>Our Recent Blogs</h2>
+                    <h3 className='sm:text-2xl md:text-3xl text-xl font-semibold'>Our Recent Blogs</h3>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5  ">
-                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
+                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary shadow-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
                         <div className="w-full mb-4">
                             <img src="whatsapp.jpg" alt="" className='w-full rounded-2xl' />
                         </div>
@@ -282,7 +282,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
+                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary shadow-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
                         <div className="w-full mb-4">
                             <img src="whatsapp.jpg" alt="" className='w-full rounded-2xl' />
                         </div>
@@ -305,7 +305,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
+                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary shadow-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
                         <div className="w-full mb-4">
                             <img src="whatsapp.jpg" alt="" className='w-full rounded-2xl' />
                         </div>
@@ -336,7 +336,7 @@ const About = () => {
             <div className=" max-w-6xl mx-auto py-12 px-4 ">
                 <div className="flex flex-col items-center justify-center mb-10 ">
                     <div className="text-primary mb-2 font-semibold">OUR VIDEOS</div>
-                    <h2 className='sm:text-2xl text-xl text-center  font-semibold'>Letest from Youtube</h2>
+                    <h3 className='sm:text-2xl md:text-3xl text-xl text-center  font-semibold'>Letest from Youtube</h3>
                 </div>
                 <VideoSlider />
             </div>
@@ -344,7 +344,7 @@ const About = () => {
             <div className="grid grid-cols-2 max-w-6xl mx-auto px-4 py-12">
                 <div className="">
                     <span className='text-primary font-semibold block mb-5'>LEARN HOW TO GET STARTED</span>
-                    <h3 className='text-3xl mb-5'>Frequently Asked <br /> Questions</h3>
+                    <h3 className='md:text-3xl sm:text-2xl text-xl font-semibold mb-5'>Frequently Asked <br /> Questions</h3>
                     <p className='text-gray-400 mb-5'> Join our club member community now to get free updates and also a lot of freebies are waiting for you or Contact Us</p>
                     <div className="flex">
                         <div className="py-[8px] px-3 border border-gray-500 text-gray-500 text-sm hover:bg-primary hover:text-white transition-all duration-300 rounded-[5px] ">Read Our Full FAQ</div>
@@ -365,7 +365,7 @@ const About = () => {
             <div className="max-w-6xl mx-auto py-12 pb-32 px-4 grid  md:grid-cols-[1fr,2fr] gap-5">
                 <div className="">
                     <span className='text-primary sm:text-base text-sm font-semibold block sm:mb-5 mb-2'>OUR PREMIUM PARTNERS</span>
-                    <h3 className='sm:text-2xl text-xl mb-2 sm:mb-5'>Trusted By The World</h3>
+                    <h3 className='sm:text-2xl md:text-3xl font-semibold text-xl mb-2 sm:mb-5'>Trusted By The World</h3>
                     <p className='text-gray-500 text-sm sm:text-base mb-2 sm:mb-5'> You can list your partners or instructors brands here to show off your sites reputation</p>
                     <div className="flex">
                         <div className="py-1 px-2 border border-gray-500 text-gray-500 text-sm hover:bg-primary hover:text-white transition-all duration-300 rounded-[5px] ">See All</div>

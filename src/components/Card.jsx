@@ -90,7 +90,7 @@ const Card = () => {
             <div className={`bg-white rounded-2xl relative hover:bg-blue-500 hover:scale-105 transition-all duration-500  group `}>
 
                 <div className="absolute text-[70px] font-extrabold right-[10%] top-0 ">
-                    <p className='text-gcurrent'>7 sm:leading-4</p>
+                    <p className='text-gray-100 stroke-current'>7</p>
                 </div>
 
                 <div className="px-9 py-12">
