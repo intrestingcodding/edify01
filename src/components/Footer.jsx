@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Mail, MapPinned, PhoneCall, Send, Twitter, Youtube } from 'lucide-react'
+import { Box, Facebook, Instagram, Linkedin, Mail, MailIcon, MapPinned, PhoneCall, Send, Twitter, Youtube } from 'lucide-react'
 import React from 'react'
 
 const Footer = () => {
@@ -6,15 +6,25 @@ const Footer = () => {
         <div className="">
             <div className='grid sm:grid-cols-2 items-center   md:grid-cols-4 gap-5 pt-20 relative max-w-6xl mx-auto px-4 py-5 min-h-[70vh] '>
 
-                <div className="absolute sm:top-[-20%] md:top-[-15%] border bg-white w-full md:py-10 shadow py-5 px-4 grid md:grid-cols-2 items-center shadow-primary">
-                    <div className="">
-                        <h2 className='md:text-2xl sm:text-xl text-lg text-primary '>Get in touch! Email updates?</h2>
+                <div className="absolute sm:top-[-20%] md:top-[-15%] rounded-2xl border grid w-full md:py-16 shadow-sm py-5 px-4 items-center bg-primary ">
+                    <div className="absolute bottom-[10%] right-[55%] opacity-25 -rotate-45">
+                        <MailIcon fill='gray' size={60} color='white' />
                     </div>
-                    <div className="flex items-center">
-                        <input className='w-[90%] border  border-r-0 sm:py-2 focus:outline-none px-2 ' type="text" name="" id="" placeholder='Your Email' />
-                        <button className='border sm:py-2  border-l-0 text-gray-500 hover:text-primary px-2'><Send /></button>
+                    <div className="absolute top-[3%] right-[10%] opacity-25 -rotate-45">
+                        <Box fill='gray' size={60} color='white' />
+                    </div>
+
+                    <div className=" grid md:grid-cols-2">
+                        <div className="grid items-center">
+                            <h2 className='md:text-3xl sm:text-2xl text-xl text-white '>Get in touch! Email updates?</h2>
+                        </div>
+                        <div className="flex items-center relative">
+                            <input className='w-full  border  border-r-0 sm:py-3 rounded-2xl focus:outline-none px-3 ' type="text" name="" id="" placeholder='Your Email' />
+                            <button className='border sm:py-2  border-l-0 text-white  px-2 rounded-2xl absolute top-1/2 right-[1%] -translate-y-1/2 bg-primary'>Subscribe</button>
+                        </div>
                     </div>
                 </div>
+
 
                 <div className="">
                     <img src="https://edify.pk/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" alt="" className='w-[150px] mb-4' />

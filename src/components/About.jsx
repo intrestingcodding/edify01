@@ -1,48 +1,22 @@
 import React from 'react'
 import Banner from './Banner'
 import Card from './Card'
-import { ArrowRight, BookTextIcon, Clock, MapPinIcon, Star } from 'lucide-react'
+import { ArrowRight, BookTextIcon, Star } from 'lucide-react'
 import Slider from './Slider'
 // import { motion } from 'framer-motion'
 import VideoSlider from './VideoSlider'
 import Quetions from './Quetions'
 import PartnerSlider from './PartnerSlider'
 import Footer from './Footer'
+import Events from './Events'
+import StudyInSlider from './StudyInSlider'
 
 const About = () => {
-    const image = [
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
 
-            heading: "United Kingdom"
-        },
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
-            heading: "United Kingdom"
-        },
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
-
-            heading: "United Kingdom"
-        },
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
-            heading: "United Kingdom"
-        },
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
-
-            heading: "United Kingdom"
-        },
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
-            heading: "United Kingdom"
-        },
-    ]
     return (
         <section className="">
             {/* About page */}
-            <div className='grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-4 py-12'>
+            <div className='grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-4 py-16 mb-10'>
 
                 <div className="bg-primary md:w-full  relative overflow-hidden rounded-2xl px-5 py-7">
 
@@ -61,14 +35,14 @@ const About = () => {
 
 
                 </div>
-                <div className="grid sm:grid-rows-3 gap-2 ">
+                <div className="grid sm:grid-rows-3 gap-5 ">
                     <div className="">
                         <h3 className='text-lg font-semibold mb-3 sm:mb-5 md:text-3xl sm:text-2xl'>Why Choose Edify Group of Companies as study abroad Pakistan consultants?</h3>
                         <p className='text-gray-500 sm:text-base text-sm'>We are unique in the quality of our services and stand out from our competitors. Unlike other consultancy firms in Pakistan, we truly care  our students.</p>
                     </div>
 
                     <div className="grid sm:grid-cols-5 gap ">
-                        <img className='col-span-1 w-[60px] p-[10px] mb-2 bg-[#f8f8f8]' src="expertise.png" alt="" />
+                        <img className='col-span-1 w-[60px] p-[10px] mb-2  rounded-2xl bg-[#f8f8f8]' src="expertise.png" alt="" />
                         <div className=" col-span-4">
                             <h4 className='mb-2 md:text-xl text-base font-semibold'>Unmatched Quality of Services and Genuine Care:</h4>
                             <p className='mb-2 md:text-base text-sm text-gray-400'>Edify stands out among other overseas education consultants in Pakistan due to our unique approach</p>
@@ -80,7 +54,7 @@ const About = () => {
                     </div>
 
                     <div className="grid sm:grid-cols-5   ">
-                        <img className=' col-span-1 w-[60px] p-[10px] mb-2 bg-[#f8f8f8]' src="certificate.png" alt="" />
+                        <img className=' col-span-1 w-[60px] p-[10px] mb-2 rounded-2xl  bg-[#f8f8f8]' src="certificate.png" alt="" />
                         <div className=" col-span-4">
                             <h4 className='sm:text-xl text-base font-semibold mb-2'>Unmatched Quality of Services and Genuine Care:</h4>
                             <p className='text-gray-400 sm:text-base text-sm mb-2'>Edify stands out among other overseas education consultants in Pakistan due to our unique approach</p>
@@ -98,7 +72,7 @@ const About = () => {
 
             {/* Banner & blogs */}
             <div className="bg-gray-100">
-                <div className="max-w-6xl mx-auto px-4 py-12  ">
+                <div className="max-w-6xl mx-auto px-4 py-16 mb-10  ">
                     <Banner
                         span="OUR SERVICES"
                         heading="We Strive to Provide the Finest Service Possible to Our Students" para="Edify consultant provides A to Z services for student visa in major universities and colleges of the countries around the globe, when student come with dream of studying abroad.
@@ -115,31 +89,7 @@ const About = () => {
 
             {/* Blogs */}
 
-            <div className="max-w-6xl mx-auto px-4 py-12">
-
-                <Banner span="FAVOURITE DESTINATION"
-                    heading="Popular Destinations For International Students"
-                    para="Are you ready to launch the next phase of your academic as well as professional growth? Is quality education in distinguished universities around the world your ultimate dream? If yes, sit back and let us take the wheel!" />
-
-                <div className="relative grid md:grid-cols-2  lg:grid-cols-3 gap-5 ">
-                    {
-                        image.map((v, i) => {
-                            return (
-                                <li key={i} className='list-none'>
-                                    <div className="absolute bottom-[15px] text-xl text-white left-[15px]">{v.heading}</div>
-                                    <img src={v.pic} alt="" className='rounded-2xl w-full' />
-                                </li>
-                            )
-                        })
-
-
-
-
-                    }
-
-                </div>
-
-            </div>
+            <StudyInSlider />
 
             {/* Futured courses */}
 
@@ -252,85 +202,7 @@ const About = () => {
             </div>
 
             {/* News & Events */}
-            <div className=" max-w-6xl mx-auto px-4 py-12">
-                <div className="flex flex-col items-center justify-center mb-10 ">
-                    <div className="text-primary ms:text-base text-sm mb-2 font-semibold">NEWS & EVENTS</div>
-                    <h3 className='sm:text-2xl md:text-3xl text-xl font-semibold'>Our Recent Blogs</h3>
-                </div>
-
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5  ">
-                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary shadow-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
-                        <div className="w-full mb-4">
-                            <img src="whatsapp.jpg" alt="" className='w-full rounded-2xl' />
-                        </div>
-                        <div className="flex items-center gap-2 mb-2 ">
-                            <MapPinIcon fill='#1247a1' color='white' size={16} />
-                            <p className='text-xs text-gray-400'>Edify Group Faisalabad Head office</p>
-                        </div>
-                        <div className="flex flex-col justify-center mb-2 ">
-                            <h3 className='line-clamp-1 text-xl mb-2'>Mahum Shahid, Representative of OIEG Visited Edify Group</h3>
-                            <p className='text-gray-400 text-sm mb-2'>08 may, 2024</p>
-                        </div>
-                        <div className="flex justify-between items-center">
-                            <p className='border border-gray-300 text-gray-400 p-2 text-xs rounded-[5px] '>View Events</p>
-                            <div className="flex gap-1 bg-blue-100 border border-blue-300 p-2 items-center text-[#1247a1] rounded-[5px]">
-                                <Clock size={16} />
-                                <span className='text-xs'>
-                                    12:00 - 14:00
-                                </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary shadow-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
-                        <div className="w-full mb-4">
-                            <img src="whatsapp.jpg" alt="" className='w-full rounded-2xl' />
-                        </div>
-                        <div className="flex items-center gap-2 mb-2 ">
-                            <MapPinIcon fill='#1247a1' color='white' size={16} />
-                            <p className='text-xs text-gray-400'>Edify Group Faisalabad Head office</p>
-                        </div>
-                        <div className="flex flex-col justify-center mb-2 ">
-                            <h3 className='line-clamp-1 text-xl mb-2'>Mahum Shahid, Representative of OIEG Visited Edify Group</h3>
-                            <p className='text-gray-400 text-sm mb-2'>08 may, 2024</p>
-                        </div>
-                        <div className="flex justify-between items-center">
-                            <p className='border border-gray-300 text-gray-400 p-2 text-xs rounded-[5px] '>View Events</p>
-                            <div className="flex gap-1 bg-blue-100 border border-blue-300 p-2 items-center text-[#1247a1] rounded-[5px]">
-                                <Clock size={16} />
-                                <span className='text-xs'>
-                                    12:00 - 14:00
-                                </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="border p-4 mb-2 border-t-8 border-b-8 border-primary shadow-primary rounded-t-2xl rounded-b-2xl shadow hover:scale-105 transition-all duration-500 border-r-0 border-l-0">
-                        <div className="w-full mb-4">
-                            <img src="whatsapp.jpg" alt="" className='w-full rounded-2xl' />
-                        </div>
-                        <div className="flex items-center gap-2 mb-2 ">
-                            <MapPinIcon fill='#1247a1' color='white' size={16} />
-                            <p className='text-xs text-gray-400'>Edify Group Faisalabad Head office</p>
-                        </div>
-                        <div className="flex flex-col justify-center mb-2 ">
-                            <h3 className='line-clamp-1 text-xl mb-2'>Mahum Shahid, Representative of OIEG Visited Edify Group</h3>
-                            <p className='text-gray-400 text-sm mb-2'>08 may, 2024</p>
-                        </div>
-                        <div className="flex justify-between items-center">
-                            <p className='border border-gray-300 text-gray-400 p-2 text-xs rounded-[5px] '>View Events</p>
-                            <div className="flex gap-1 bg-blue-100 border border-blue-300 p-2 items-center text-[#1247a1] rounded-[5px]">
-                                <Clock size={16} />
-                                <span className='text-xs'>
-                                    12:00 - 14:00
-                                </span>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+            <Events />
 
             {/* Ower Videos */}
             <div className=" max-w-6xl mx-auto py-12 px-4 ">
