@@ -1,62 +1,76 @@
+"use client"
 import React from 'react'
-import Banner from './Banner'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+import { Navigation } from 'swiper/modules';
 
 const StudyInSlider = () => {
     const image = [
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
 
-            heading: "Study in United Kingdom"
+        {
+            pic: "https://img.freepik.com/free-photo/orlando-lake-lucerne_649448-773.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user",
+            heading: "Study in UK "
         },
         {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
-            heading: "Study in United Kingdom"
+            pic: "https://img.freepik.com/free-photo/orlando-lake-lucerne_649448-773.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user",
+            heading: "Study in UK "
         },
         {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
+            pic: "https://img.freepik.com/free-photo/orlando-lake-lucerne_649448-773.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user",
+            heading: "Study in UK "
+        },
+        {
+            pic: "https://img.freepik.com/free-photo/orlando-lake-lucerne_649448-773.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user",
+            heading: "Study in UK "
+        },
+        {
+            pic: "https://img.freepik.com/free-photo/orlando-lake-lucerne_649448-773.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user",
+            heading: "Study in UK "
+        },
 
-            heading: "Study in United Kingdom"
-        },
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
-            heading: "Study in United Kingdom"
-        },
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
 
-            heading: "Study in United Kingdom"
-        },
-        {
-            pic: "https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1706775289%2Fdfbajibuctv4sebhkqzs.webp&w=640&q=75",
-            heading: "Study in United Kingdom"
-        },
+
     ]
     return (
-        <div className="max-w-6xl mx-auto px-4 py-12">
+        <>
+            <Swiper
+                slidesPerView={2}
+                centeredSlides={true}
+                spaceBetween={20}
+                // grabCursor={true}
+                navigation={true}
+                modules={[Navigation]}
+                loop
 
-            <Banner span="FAVOURITE DESTINATION"
-                heading="Popular Destinations For International Students"
-                para="Are you ready to launch the next phase of your academic as well as professional growth? Is quality education in distinguished universities around the world your ultimate dream? If yes, sit back and let us take the wheel!" />
 
-            <div className="relative grid md:grid-cols-2  lg:grid-cols-3 gap-5 ">
+            >
+
+
                 {
                     image.map((v, i) => {
                         return (
-                            <li key={i} className='list-none'>
-                                <div className="absolute bottom-[15px] text-xl text-white left-[15px]">{v.heading}</div>
-                                <img src={v.pic} alt="" className='rounded-2xl w-full' />
-                            </li>
+                            <SwiperSlide>
+                                <section key={i} className='relative'>
+                                    {/* <div className="absolute flex items-end p-5  h-full w-full inset-0 bg-gradient-to-t from-gray-500 from-10% via-white via-30%  to-white to-90% bottom-0 left-0 bg-opacity-30 ">
+                                    </div> */}
+                                    <div className=" absolute bottom-0 p-3 bg-opacity-50 rounded-2xl text-xl text-white bg-gradient-to-t from-black w-full ">{v.heading}</div>
+                                    <img src={v.pic} alt="" className='rounded-2xl w-full h-full ' />
+
+                                </section>
+                            </SwiperSlide>
+
                         )
                     })
-
-
-
-
                 }
+            </Swiper >
 
-            </div>
+        </>
 
-        </div>
+
+
+
     )
 }
 

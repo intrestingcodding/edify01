@@ -10,6 +10,7 @@ import PartnerSlider from './PartnerSlider'
 import Footer from './Footer'
 import Events from './Events'
 import StudyInSlider from './StudyInSlider'
+import Courses from './Courses'
 
 const About = () => {
 
@@ -88,8 +89,16 @@ const About = () => {
             </div>
 
             {/* Blogs */}
+            <div className="max-w-6xl mx-auto px-4 py-16">
 
-            <StudyInSlider />
+                <Banner span="FAVOURITE DESTINATION"
+                    heading="Popular Destinations For International Students"
+                    para="Are you ready to launch the next phase of your academic as well as professional growth? Is quality education in distinguished universities around the world your ultimate dream? If yes, sit back and let us take the wheel!" />
+
+
+                <StudyInSlider />
+            </div>
+
 
             {/* Futured courses */}
 
@@ -102,93 +111,7 @@ const About = () => {
                     <p className='text-[#808080] md:text-base text-sm text-center '>Education empowers thinkers for a dynamic global existence.</p>
 
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto px-4 ">
-
-                    <div className="bg-white shadow p-5 rounded-xl">
-
-                        <div className="mb-5">
-                            <img src="https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1704883921%2FBlog-images%2Fjdwp1emi8hhfilmltclr.webp&w=384&q=75" alt="" className='rounded-2xl w-full' />
-                        </div>
-                        <div className="flex justify-between items-center mb-5">
-                            <span className='block text-primary bg-blue-100 py-[4px] px-3 rounded-xl sm:text-sm text-xs'>English Proficiency</span>
-                            <div className="flex">
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                            </div>
-                        </div>
-                        <div className="mb-5">
-                            <h3 className='font-semibold sm:text-lg text-base mb-2'>IELTS Academic Course</h3>
-                            <p className='text-gray-400 sm:text-base text-sm'>Excel in IELTS Academic with...</p>
-                        </div>
-                        <div className="flex justify-between items-center">
-                            <div className="py-[5px] px-[12px] text-white rounded-2xl sm:text-base text-sm bg-primary">Enroll Now</div>
-                            <div className="flex border sm:py-[5px] rounded-xl border-blue-100 sm:px-3 px-2 py-[3px] gap-1">
-                                <BookTextIcon color='#1247a1' />
-                                <span>4</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="bg-white shadow p-5 rounded-xl">
-
-                        <div className="mb-5">
-                            <img src="https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1704883921%2FBlog-images%2Fjdwp1emi8hhfilmltclr.webp&w=384&q=75" alt="" className='rounded-2xl w-full' />
-                        </div>
-                        <div className="flex justify-between items-center mb-5">
-                            <span className='block text-primary bg-blue-100 py-[4px] px-3 rounded-xl sm:text-sm text-xs'>English Proficiency</span>
-                            <div className="flex">
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                            </div>
-                        </div>
-                        <div className="mb-5">
-                            <h3 className='font-semibold sm:text-lg text-base mb-2'>IELTS Academic Course</h3>
-                            <p className='text-gray-400 sm:text-base text-sm'>Excel in IELTS Academic with...</p>
-                        </div>
-                        <div className="flex justify-between items-center">
-                            <div className="py-[5px] px-[12px] text-white rounded-2xl sm:text-base text-sm bg-primary">Enroll Now</div>
-                            <div className="flex border sm:py-[5px] rounded-xl border-blue-100 sm:px-3 px-2 py-[3px] gap-1">
-                                <BookTextIcon color='#1247a1' />
-                                <span>4</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="bg-white shadow p-5 rounded-xl">
-
-                        <div className="mb-5">
-                            <img src="https://edify.pk/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fsameer-13%2Fimage%2Fupload%2Fv1704883921%2FBlog-images%2Fjdwp1emi8hhfilmltclr.webp&w=384&q=75" alt="" className='rounded-2xl w-full' />
-                        </div>
-                        <div className="flex justify-between items-center mb-5">
-                            <span className='block text-primary bg-blue-100 py-[4px] px-3 rounded-xl sm:text-sm text-xs'>English Proficiency</span>
-                            <div className="flex">
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                                <Star color='#ffc107' size={15} fill='#ffc107' />
-                            </div>
-                        </div>
-                        <div className="mb-5">
-                            <h3 className='font-semibold sm:text-lg text-base mb-2'>IELTS Academic Course</h3>
-                            <p className='text-gray-400 sm:text-base text-sm'>Excel in IELTS Academic with...</p>
-                        </div>
-                        <div className="flex justify-between items-center">
-                            <div className="py-[5px] px-[12px] text-white rounded-2xl sm:text-base text-sm bg-primary">Enroll Now</div>
-                            <div className="flex border sm:py-[5px] rounded-xl border-blue-100 sm:px-3 px-2 py-[3px] gap-1">
-                                <BookTextIcon color='#1247a1' />
-                                <span>4</span>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
+                <Courses />
             </div>
 
 

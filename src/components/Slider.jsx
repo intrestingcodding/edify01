@@ -2,7 +2,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { LucideEye, User2Icon } from 'lucide-react';
+import { Clock10Icon, LucideEye, User2Icon } from 'lucide-react';
 
 import { Autoplay } from "swiper/modules"
 
@@ -37,10 +37,10 @@ const Slider = () => {
         >
             <SwiperSlide>
                 <div className="relative rounded-2xl">
-                    <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute h-full  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  ">
+                    <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  ">
                         <div className="">
                             <div className="sm:flex hidden mb-2">
-                                <p className='py-[5px] px-3 sm:text-sm text-xs rounded-[5px] bg-primary '>Student Life</p>
+                                <p className='py-[5px] px-3 sm:text-sm text-xs bg-primary rounded-2xl '>Student Life</p>
                             </div>
                             <h3 className='sm:text-lg text-base mb-2'>Unlocking the best London for Student form Pakistan</h3>
                             <div className="flex gap-5 ">
@@ -49,7 +49,7 @@ const Slider = () => {
                                     <span className='sm:text-sm text-xs'>Mubashar Aslam</span>
                                 </div>
                                 <div className="flex gap-2 items-center">
-                                    <LucideEye size={15} />
+                                    <Clock10Icon size={15} />
                                     <span className='sm:text-sm text-xs'>5 hour ago</span>
                                 </div>
                             </div>
@@ -61,10 +61,10 @@ const Slider = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="relative rounded-2xl">
-                    <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute h-full  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  ">
+                    <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  ">
                         <div className="">
                             <div className="sm:flex hidden mb-2">
-                                <p className='py-[5px] px-3 sm:text-sm text-xs rounded-[5px] bg-primary '>Student Life</p>
+                                <p className='py-[5px] px-3 sm:text-sm text-xs bg-primary rounded-2xl '>Student Life</p>
                             </div>
                             <h3 className='sm:text-lg text-base mb-2'>Unlocking the best London for Student form Pakistan</h3>
                             <div className="flex gap-5 ">
@@ -73,7 +73,7 @@ const Slider = () => {
                                     <span className='sm:text-sm text-xs'>Mubashar Aslam</span>
                                 </div>
                                 <div className="flex gap-2 items-center">
-                                    <LucideEye size={15} />
+                                    <Clock10Icon size={15} />
                                     <span className='sm:text-sm text-xs'>5 hour ago</span>
                                 </div>
                             </div>
@@ -85,10 +85,10 @@ const Slider = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="relative rounded-2xl">
-                    <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute h-full  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  ">
+                    <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  ">
                         <div className="">
                             <div className="sm:flex hidden mb-2">
-                                <p className='py-[5px] px-3 sm:text-sm text-xs rounded-[5px] bg-primary '>Student Life</p>
+                                <p className='py-[5px] px-3 sm:text-sm text-xs bg-primary rounded-2xl '>Student Life</p>
                             </div>
                             <h3 className='sm:text-lg text-base mb-2'>Unlocking the best London for Student form Pakistan</h3>
                             <div className="flex gap-5 ">
@@ -97,7 +97,7 @@ const Slider = () => {
                                     <span className='sm:text-sm text-xs'>Mubashar Aslam</span>
                                 </div>
                                 <div className="flex gap-2 items-center">
-                                    <LucideEye size={15} />
+                                    <Clock10Icon size={15} />
                                     <span className='sm:text-sm text-xs'>5 hour ago</span>
                                 </div>
                             </div>
