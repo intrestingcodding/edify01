@@ -51,7 +51,7 @@ const StudyInSlider = () => {
                 {
                     image.map((v, i) => {
                         return (
-                            <SwiperSlide>
+                            <SwiperSlide key={i}>
                                 <section key={i} className='relative'>
                                     {/* <div className="absolute flex items-end p-5  h-full w-full inset-0 bg-gradient-to-t from-gray-500 from-10% via-white via-30%  to-white to-90% bottom-0 left-0 bg-opacity-30 ">
                                     </div> */}
