@@ -5,7 +5,7 @@ const Events = () => {
         <div>
             <div className=" max-w-6xl mx-auto px-4 py-12">
                 <div className="flex flex-col items-center justify-center mb-10 ">
-                    <div className="text-primary ms:text-base text-sm mb-2 font-semibold">NEWS & EVENTS</div>
+                    <div className="text-primary ms:text-base  mb-1 font-semibold">NEWS & EVENTS</div>
                     <h3 className='sm:text-2xl md:text-3xl text-xl font-semibold'>Our Recent Blogs</h3>
                 </div>
 
@@ -36,7 +36,7 @@ const Events = () => {
 
                     <div className="border p-4 mb-2 rounded-t-2xl rounded-b-2xl ">
                         <div className="w-full mb-4">
-                            <img src="https://img.freepik.com/free-photo/group-business-people-sitting-conference-table_23-2148073305.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user" alt="" className='w-full rounded-2xl' />
+                            <img src="https://img.freepik.com/free-photo/portrait-happy-male-female-businesspeople-looking-camera_23-2147826613.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user" alt="" className='w-full rounded-2xl' />
                         </div>
                         <div className="flex items-center text-primary gap-2 mb-2 ">
                             <MapPinIcon fill='#1247a1' color='white' size={16} />
@@ -59,7 +59,7 @@ const Events = () => {
                     </div>
                     <div className="border p-4 mb-2 rounded-t-2xl rounded-b-2xl ">
                         <div className="w-full mb-4">
-                            <img src="https://img.freepik.com/free-photo/group-business-people-sitting-conference-table_23-2148073305.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user" alt="" className='w-full rounded-2xl' />
+                            <img src="https://img.freepik.com/free-photo/elevated-view-businessman-businesswoman-stacking-each-other-s-hand-project_23-2148073310.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user" alt="" className='w-full rounded-2xl' />
                         </div>
                         <div className="flex items-center text-primary gap-2 mb-2 ">
                             <MapPinIcon fill='#1247a1' color='white' size={16} />

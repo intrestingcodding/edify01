@@ -10,7 +10,7 @@ const Card = () => {
                 </div>
 
                 <div className="px-9 py-12">
-                    <img className=' ' src="https://edify.pk/_next/image?url=%2Ficons%2FArtboard%204.png&w=128&q=75" alt="" />
+                    <img className='.filter' src="https://edify.pk/_next/image?url=%2Ficons%2FArtboard%204.png&w=128&q=75" alt="" />
                     <div className="">
                         <h4 className='text-xl group-hover:text-white'>Counselling</h4>
                         <p className='text-[#808080] group-hover:text-white sm:text-base text-sm line-clamp-3  leading-5 sm:leading  '>Applying for studying abroad is a huge decision which is why we do not limit our counselling..</p>

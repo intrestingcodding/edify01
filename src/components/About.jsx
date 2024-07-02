@@ -102,23 +102,21 @@ const About = () => {
 
             {/* Futured courses */}
 
-            <div className="bg-gray-100 py-12">
+            <div className="bg-gray-100 py-16">
 
                 <div className=' flex flex-col py-5 justify-center px-4 items-center mb-5'>
-
-                    <span className='text-primary font-semibold mb-2 block'>TOP COURSES</span>
-                    <h3 className='md:text-2xl text-lg font-semibold mb-2'>Our Featured Courses</h3>
+                    <span className='text-primary font-semibold mb-1 block'>TOP COURSES</span>
+                    <h3 className='md:text-3xl text-xl font-semibold mb-1'>Our Featured Courses</h3>
                     <p className='text-[#808080] md:text-base text-sm text-center '>Education empowers thinkers for a dynamic global existence.</p>
-
                 </div>
                 <Courses />
             </div>
 
 
             {/* Slider */}
-            <div className="max-w-6xl mx-auto px-4 my-12">
+            <div className="max-w-6xl mx-auto px-4 py-16">
                 <div className="flex flex-col items-center justify-center mb-10 ">
-                    <div className="text-primary ms:text-base text-sm mb-2 font-semibold">Top Blogs</div>
+                    <div className="text-primary md:text-base  mb-1 font-semibold">Top Blogs</div>
                     <h3 className='sm:text-2xl md:text-3xl text-xl  font-semibold'>Our Recent Blogs</h3>
                 </div>
                 <Slider />
@@ -128,7 +126,7 @@ const About = () => {
             <Events />
 
             {/* Ower Videos */}
-            <div className=" max-w-6xl mx-auto py-12 px-4 ">
+            <div className=" max-w-6xl mx-auto py-16 px-4 ">
                 <div className="flex flex-col items-center justify-center mb-10 ">
                     <div className="text-primary mb-2 font-semibold">OUR VIDEOS</div>
                     <h3 className='sm:text-2xl md:text-3xl text-xl text-center  font-semibold'>Letest from Youtube</h3>
@@ -136,7 +134,7 @@ const About = () => {
                 <VideoSlider />
             </div>
             {/* how to start */}
-            <div className="grid grid-cols-2 max-w-6xl mx-auto px-4 py-12">
+            <div className="grid grid-cols-2 max-w-6xl mx-auto px-4 py-16">
                 <div className="">
                     <span className='text-primary font-semibold block mb-5'>LEARN HOW TO GET STARTED</span>
                     <h3 className='md:text-3xl sm:text-2xl text-xl font-semibold mb-5'>Frequently Asked <br /> Questions</h3>
@@ -147,27 +145,29 @@ const About = () => {
 
                 </div>
                 <div className="">
-                    <div className="p-[14px] text-primary font-semibold bg-gray-100 inline-block rounded-full">
+                    <div className="">
 
-                        <Quetions />
+                        {/* <Quetions /> */}
 
                     </div>
                 </div>
 
             </div>
             {/* Partners */}
-
-            <div className="max-w-6xl mx-auto py-12 pb-32 px-4 grid  md:grid-cols-[1fr,2fr] gap-5">
+            <div className="max-w-6xl mx-auto py-16 pb-32 px-4">
                 <div className="">
-                    <span className='text-primary sm:text-base text-sm font-semibold block sm:mb-5 mb-2'>OUR PREMIUM PARTNERS</span>
-                    <h3 className='sm:text-2xl md:text-3xl font-semibold text-xl mb-2 sm:mb-5'>Trusted By The World</h3>
-                    <p className='text-gray-500 text-sm sm:text-base mb-2 sm:mb-5'> You can list your partners or instructors brands here to show off your sites reputation</p>
-                    <div className="flex">
-                        <div className="py-1 px-2 border border-gray-500 text-gray-500 text-sm hover:bg-primary hover:text-white transition-all duration-300 rounded-[5px] ">See All</div>
+                    <div className="">
+                        <span className='text-primary sm:text-base text-sm font-semibold block  mb-1'>OUR PREMIUM PARTNERS</span>
+                        <h3 className='sm:text-2xl md:text-3xl font-semibold text-xl mb-1'>Trusted By The World</h3>
+                        <p className='text-gray-500 text-sm sm:text-base mb-2 sm:mb-5'> You can list your partners or instructors brands here to show off your sites reputation</p>
+
+                    </div>
+                    <div className="">
+                        <PartnerSlider />
                     </div>
                 </div>
-                <PartnerSlider />
             </div>
+
 
             {/* Footer */}
             <div className="bg-gray-100 ">

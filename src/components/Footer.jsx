@@ -30,19 +30,19 @@ const Footer = () => {
                     <img src="https://edify.pk/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" alt="" className='w-[150px] mb-4' />
                     <p className='text-gray-500 mb-4'>Let us help you yield your true academic potential for foreign education. To configure and discover an apt international enrolment strategy, get in touch!</p>
                     <div className="flex gap-4">
-                        <div className="bg-white hover:text-white p-2 flex justify-center items-center shadow text-gray-500 bor3er rounded-full hover:bg-red-500 ">
+                        <div className="bg-white hover:text-white p-2 transition-all duration-300 flex justify-center items-center shadow text-gray-500 bor3er rounded-full hover:bg-red-500 ">
                             <Youtube size={20} />
                         </div>
-                        <div className="bg-white hover:text-white p-2 flex justify-center items-center shadow border text-gray-500 rounded-full hover:bg-gradient-to-b from-orange-500">
+                        <div className="bg-white hover:text-white p-2 transition-all duration-300 flex justify-center items-center shadow border text-gray-500 rounded-full hover:bg-gradient-to-b from-orange-500">
                             <Instagram size={20} />
                         </div>
-                        <div className="bg-white hover:text-white p-2 flex justify-center items-center shadow border text-gray-500 rounded-full hover:bg-[#316ff6]">
+                        <div className="bg-white hover:text-white p-2 transition-all duration-300 flex justify-center items-center shadow border text-gray-500 rounded-full hover:bg-[#316ff6]">
                             <Facebook size={20} />
                         </div>
-                        <div className="bg-white hover:text-white p-2 flex justify-center items-center  shadow border text-gray-500 rounded-full hover:bg-[#0076b5]  ">
+                        <div className="bg-white hover:text-white p-2 transition-all duration-300 flex justify-center items-center  shadow border text-gray-500 rounded-full hover:bg-[#0076b5]  ">
                             <Linkedin size={20} />
                         </div>
-                        <div className="bg-white hover:text-white p-2 flex justify-center items-center shadow border text-gray-500 rounded-full hover:bg-[#1da1f2]">
+                        <div className="bg-white hover:text-white p-2 transition-all duration-300 flex justify-center items-center shadow border text-gray-500 rounded-full hover:bg-[#1da1f2]">
                             <Twitter size={20} />
                         </div>
                     </div>
