@@ -123,7 +123,10 @@ const About = () => {
             </div>
 
             {/* News & Events */}
-            <Events />
+            <div className="bg-gray-100">
+                <Events />
+
+            </div>
 
             {/* Ower Videos */}
             <div className=" max-w-6xl mx-auto py-16 px-4 ">
@@ -134,24 +137,26 @@ const About = () => {
                 <VideoSlider />
             </div>
             {/* how to start */}
-            <div className="grid grid-cols-2 max-w-6xl mx-auto px-4 py-16">
-                <div className="">
-                    <span className='text-primary font-semibold block mb-5'>LEARN HOW TO GET STARTED</span>
-                    <h3 className='md:text-3xl sm:text-2xl text-xl font-semibold mb-5'>Frequently Asked <br /> Questions</h3>
-                    <p className='text-gray-400 mb-5'> Join our club member community now to get free updates and also a lot of freebies are waiting for you or Contact Us</p>
-                    <div className="flex">
-                        <div className="py-[8px] px-3 border border-gray-500 text-gray-500 text-sm hover:bg-primary hover:text-white transition-all duration-300 rounded-[5px] ">Read Our Full FAQ</div>
-                    </div>
-
-                </div>
-                <div className="">
+            <div className="bg-gray-100">
+                <div className="grid grid-cols-2 max-w-6xl mx-auto px-4 py-16 ">
                     <div className="">
-
-                        {/* <Quetions /> */}
+                        <span className='text-primary font-semibold block mb-5'>LEARN HOW TO GET STARTED</span>
+                        <h3 className='md:text-3xl sm:text-2xl text-xl font-semibold mb-5'>Frequently Asked <br /> Questions</h3>
+                        <p className='text-gray-400 mb-5'> Join our club member community now to get free updates and also a lot of freebies are waiting for you or Contact Us</p>
+                        <div className="flex">
+                            <div className="py-[8px] px-3 border border-gray-500 text-gray-500 text-sm hover:bg-primary hover:text-white transition-all duration-300 rounded-[5px] ">Read Our Full FAQ</div>
+                        </div>
 
                     </div>
-                </div>
+                    <div className="">
+                        <div className="">
 
+                            {/* <Quetions /> */}
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
             {/* Partners */}
             <div className="max-w-6xl mx-auto py-16 pb-32 px-4">
@@ -169,12 +174,7 @@ const About = () => {
             </div>
 
 
-            {/* Footer */}
-            <div className="bg-gray-100 ">
 
-                <Footer />
-
-            </div>
 
         </section >
     )

@@ -10,7 +10,7 @@ const Events = () => {
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5  ">
-                    <div className="border p-4 mb-2  rounded-2xl ">
+                    <div className="border p-4 mb-2  bg-white rounded-2xl ">
                         <div className="w-full mb-4">
                             <img src="https://img.freepik.com/free-photo/group-business-people-sitting-conference-table_23-2148073305.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user" alt="" className='w-full rounded-2xl' />
                         </div>
@@ -34,7 +34,7 @@ const Events = () => {
                         </div>
                     </div>
 
-                    <div className="border p-4 mb-2 rounded-t-2xl rounded-b-2xl ">
+                    <div className="border p-4 mb-2 bg-white rounded-t-2xl rounded-b-2xl ">
                         <div className="w-full mb-4">
                             <img src="https://img.freepik.com/free-photo/portrait-happy-male-female-businesspeople-looking-camera_23-2147826613.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user" alt="" className='w-full rounded-2xl' />
                         </div>
@@ -57,7 +57,7 @@ const Events = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="border p-4 mb-2 rounded-t-2xl rounded-b-2xl ">
+                    <div className="border p-4 mb-2 bg-white rounded-t-2xl rounded-b-2xl ">
                         <div className="w-full mb-4">
                             <img src="https://img.freepik.com/free-photo/elevated-view-businessman-businesswoman-stacking-each-other-s-hand-project_23-2148073310.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user" alt="" className='w-full rounded-2xl' />
                         </div>

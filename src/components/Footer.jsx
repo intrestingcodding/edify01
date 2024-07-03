@@ -3,15 +3,15 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="">
-            <div className='grid sm:grid-cols-2 items-center   md:grid-cols-4 gap-5 pt-20 relative max-w-6xl mx-auto px-4 py-5 min-h-[70vh] '>
+        <div className=" bg-gray-100">
+            <div className='grid sm:grid-cols-2 items-center  md:grid-cols-4 gap-5 pt-20 relative max-w-6xl mx-auto px-4 py-5 min-h-[70vh] '>
 
                 <div className="absolute sm:top-[-20%] md:top-[-15%] rounded-2xl border grid w-full md:py-16 shadow-sm py-5 px-4 items-center bg-primary ">
-                    <div className="absolute bottom-[10%] right-[55%] opacity-25 -rotate-45">
-                        <MailIcon fill='gray' size={60} color='white' />
+                    <div className="absolute bottom-[10%] right-[55%] opacity-20 -rotate-45">
+                        <MailIcon size={60} color='white' strokeWidth={1} />
                     </div>
                     <div className="absolute top-[3%] right-[10%] opacity-25 -rotate-45">
-                        <Box fill='gray' size={60} color='white' />
+                        <Box size={60} strokeWidth={1} color='white' />
                     </div>
 
                     <div className=" grid md:grid-cols-2">
@@ -19,8 +19,8 @@ const Footer = () => {
                             <h2 className='md:text-3xl sm:text-2xl text-xl text-white '>Get in touch! Email updates?</h2>
                         </div>
                         <div className="flex items-center relative">
-                            <input className='w-full  border  border-r-0 sm:py-3 rounded-2xl focus:outline-none px-3 ' type="text" name="" id="" placeholder='Your Email' />
-                            <button className='border sm:py-2  border-l-0 text-white  px-2 rounded-2xl absolute top-1/2 right-[1%] -translate-y-1/2 bg-primary'>Subscribe</button>
+                            <input className='w-full  border  border-r-0 sm:py-[14px] rounded-[5px] focus:outline-none px-3 ' type="text" name="" id="" placeholder='Your Email' />
+                            <button className='border sm:py-[10px]   text-white  px-[10px] rounded-[5px] absolute top-1/2 right-[1%] -translate-y-1/2 bg-primary'>Subscribe</button>
                         </div>
                     </div>
                 </div>
