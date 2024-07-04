@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={dm_sans.variable}>
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

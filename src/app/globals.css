@@ -6,14 +6,3 @@
   filter: brightness(0) saturate(100%) invert(100%) sepia(91%) saturate(38%)
     hue-rotate(254deg) brightness(110%) contrast(110%);
 }
-
-.heading {
-  @apply md:text-3xl sm:text-2xl text-xl font-semibold;
-}
-.sec-heading{
-  @apply text-3xl 
-}
-
-.para {
-  @apply text-gray-500 md:text-base text-sm;
-}
