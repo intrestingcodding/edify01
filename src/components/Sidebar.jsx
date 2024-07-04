@@ -46,12 +46,9 @@ const Sidebar = () => {
     ]
     return (
         <div>
-            <div className="py-10 max-h-[100vh] top-0 sticky px-4 overflow-hidden">
-                <div className="relative mb-5">
-                    <div className="absolute top-[25%] right-[5%]  text-primary  ">
-                        <Search />
-                    </div>
-                    <input type="text" placeholder='Search for blogs...' className=' border-2 p-3 w-full outline-none focus:border-primary focus:border-2 transition-all duration-300  text-black rounded-[5px] ' />
+            <div className="py-10 top-0 sticky px-4 ">
+                <div className="mb-5">
+                    <input type="search" placeholder='Search for blogs...' className=' border-2 p-2 w-full outline-none focus:border-primary focus:border-2 transition-all duration-300  text-black rounded-[5px] bg-gray-200 ' />
                 </div>
 
                 <div className="">
@@ -61,8 +58,8 @@ const Sidebar = () => {
                         {
                             resentBlogs.map((v, i) => {
                                 return (
-                                    <div className="grid gap-2 py-1">
-                                        <h3 className='md:text-xl  text-lg line-clamp-1 cursor-pointer hover:text-primary'>{v.heading}</h3>
+                                    <div key={i} className="grid gap-2 py-1">
+                                        <h3 className=' text-lg line-clamp-1 cursor-pointer hover:text-primary'>{v.heading}</h3>
                                         <div className="flex gap-2 items-center text-gray-500">
                                             <Clock size={16} />
                                             <span className='text-sm'>

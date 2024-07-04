@@ -6,11 +6,11 @@ import React from 'react'
 const page = () => {
     return (
         <div className=''>
-            <Banner_common />
+            <Banner_common heading="Ower Blogs" path="Home > Blogs" />
 
 
-            <div className="grid grid-cols-[2fr,1fr] max-w-6xl mx-auto gap-10 py-16 px-4">
-                <div className="py-10 grid gap-16">
+            <div className="grid grid-cols-4 max-w-6xl mx-auto gap-5 py-10 px-4">
+                <div className="py-10 grid gap-16 col-span-3">
                     <div className="grid gap-6 shadow-lg ">
                         <img src="https://img.freepik.com/free-photo/group-young-students-front-school-building_23-2148199272.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user" alt="" className='w-full' />
                         <div className="p-5 grid gap-8">
@@ -50,6 +50,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
+
                 <Sidebar />
             </div>
         </div>
